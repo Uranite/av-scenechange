@@ -24,7 +24,7 @@ fern = { version = "0.6", optional = true }
 tracing-subscriber = { version = "0.3.18", optional = true }
 tracing-chrome = { version = "0.7.1", optional = true }
 tracing = { version = "0.1.40", optional = true }
-ffmpeg-the-third = { version = "2.0.1", optional = true, default-features = false, features = [
+ffmpeg-the-third = { git = "https://github.com/Uranite/ffmpeg-the-third", version = "2.0.1", optional = true, default-features = false, features = [
     "codec",
     "format",
 ] }
